@@ -174,14 +174,38 @@ footer .donate{
 }
 
 
- @media screen and (max-width:900px){
-
+@media screen and (max-width:900px){
+    .titulo  img{
+        width:30%;
+    }
+    .titulo h1{
+        font-size: 25px;
+    }
     .opciones form{
-        width: 90%;
-        height: 8em;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;}
- }
+        width: 100%;
+
+    }
+
+    .opciones form input{
+        font-size: 150% ;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+        height: 180px;
+    }
+
+    footer .redes{
+        width:80%;
+    }
+
+    footer .donate{
+        width: 80%;
+        height: 70%;
+    }
+
+    footer .descargar{
+        width: 80%;
+        height: 70%;
+    }
+}
