@@ -43,13 +43,13 @@
         <div class="social" ><a target="_blank" href="https://credit-card-extrapolator.github.io/CCE/index.html"><i class="fas fa-globe-americas"></i></a></div>
         <div class="social" ><a target="_blank" href="https://www.youtube.com/channel/UCfzu-cvx2iPLjc95PdbVlbw?view_as=subscriber"><i class="fab fa-youtube"></i></a></div>
         <div class="social" ><a target="_blank" href="https://github.com/credit-card-extrapolator/CCE-WEB"><i class="fab fa-github"></i></a></div>
-        <div class="social" ><a target="_blank" href=""><i class="fas fa-info-circle"></i></a></div>
+        <div class="social" ><a target="_blank" href="https://credit-card-extrapolator.github.io/CCE/index.html#acerca_de"><i class="fas fa-info-circle"></i></a></div>
     </div>
     <div class="descargar">
-        <button>Descargar para pc</button>
+        <a target="_blank" href="https://credit-card-extrapolator.github.io/CCE/index.html">Descargar para pc</a>
     </div>
     <div class="donate">
-        <button>Donar</button>
+    <a target="_blank" href="https://www.paypal.com/donate?token=Otj4TDZGSp7ZuxuRr63vd3R_6k44y_HEYRpfIgMUMmJ5bhPahBW5Jxp3_no70GK4GoRAA-PXsoJCABwC">Donar</a>
     </div>
 </footer>
 </body>

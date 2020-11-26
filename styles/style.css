@@ -130,18 +130,21 @@ footer .descargar{
 
 }
 
-.descargar button{
+.descargar a{
+    text-decoration: none;
     width:80%;
     height: 80%;
     background: #1d1e21 ;
-    border:0;
     border-radius: 10px;
     font-size: 160%;
     color: whitesmoke;
     opacity: 0.5;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
-.descargar button:hover{
+.descargar a:hover{
     opacity: 1;
     background: #05a5db ;
     cursor: pointer;
@@ -156,18 +159,22 @@ footer .donate{
     align-items: center;
 }
 
-.donate button{
+.donate a{
+    text-decoration: none;
     width:80%;
     height: 80%;
     background: #1d1e21 ;
-    border:0;
     border-radius: 10px;
     font-size: 160%;
     color: whitesmoke;
     opacity: 0.5;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
 }
 
-.donate button:hover{
+.donate a:hover{
     opacity: 1;
     background: #05a5db;
     cursor: pointer;

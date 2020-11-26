@@ -19,6 +19,7 @@
         <h1>Tu CC sin extrapolar es: </br> <spam><?php echo $cc?> </spam></h1>
 
         <h2>Mas información sobre </br> los metodos <a href="https://credit-card-extrapolator.github.io/CCE/metodos.html">aquí</a></h2>
+        </br>
         <div class="botones">
             <form action="../index.php" method="post">
                 <button >Inicio</button>
