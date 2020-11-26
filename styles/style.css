@@ -196,7 +196,8 @@ footer .donate{
     }
 
     footer .redes{
-        width:80%;
+        width:70%;
+        height: 70%;
     }
 
     footer .donate{
@@ -208,4 +209,59 @@ footer .donate{
         width: 80%;
         height: 70%;
     }
+
+
+}
+
+@media screen and (max-width:1000px){
+     .opciones{
+         margin: 30px auto;
+     }
+}
+
+@media screen and (max-width:500px){
+    .titulo  img{
+        width:35%;
+    }
+    .titulo h1{
+        font-size: 20px;
+        width: 80%;
+        text-align: center;
+    }
+    .titulo h3{
+        font-size: 15px;
+    }
+    .opciones form{
+        width: 100%;
+        flex-grow: grow;
+
+    }
+
+    .opciones form input{
+        font-size: 120% ;
+        margin: 1% 2%;
+        width: 40%;
+    }
+
+    footer .redes{
+        width:70%;
+        height: 50%;
+    }
+
+    footer .donate{
+        width: 90%;
+        height: 50%;
+        font-size: 12px;
+    }
+
+    footer .descargar{
+        width: 90%;
+        height: 50%;
+        font-size: 12px ;
+    }
+
+    footer .redes a i{
+        font-size: 35px ;
+    }
+
 }
