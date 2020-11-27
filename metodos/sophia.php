@@ -8,6 +8,10 @@
 </head>
 <body>
     <div class="codigo">
+        <div class="titulo">
+            <h1>CREDIT CARD EXTRAPOLATOR WEB</h1>
+            <img src="../images/LOGO2.png" alt="logo de cce">
+        </div>
             <?php 
         $cc = (int)$_POST['cc_sophia'] ; 
         $cc_bin1 = substr($cc,8,16);
@@ -37,20 +41,26 @@
         if($cc_bin[15] == "x"){
             $cc_bin = replaceAt($cc_bin,15,"1");}?>
 
-        <h1>Tu CC extrapolada con</br> el metodo Sofia es:</br></br>   <spam> <?php echo $cc_bin?> </spam></br> </br> </h1>
-        <h2>Por favor copiala antes de volver o ir a Namso</h2> 
-        <h1>Tus CCs sin extrapolar son:</br>  <spam><?php echo $cc?> </br> <?php echo $cc2?> </spam></h1>
+        <div class="respuesta">
+            <h1>Tu CC extrapolada con el metodo Sofia es:  </br><spam> <?php echo $cc_bin?> </spam></h1>
+        </div> 
 
-        <h2>Mas información </br> sobre los metodos <a href="https://credit-card-extrapolator.github.io/CCE/metodos.html">aquí</a></h2> 
-        <div class="botones">
-            <form action="../index.php" method="post">
-                <button >Inicio</button>
-            </form>    
-            <form target='_blank' action="https://namso-gen.com/">
-                <button>Ir a Namso</button>
-            </form>
+        <div class="respuesta">
+            <h1>Tu CC sin extrapolar es: </br> <spam><?php echo $cc?> </spam></h1>    
         </div>
+        <div class="informacion">
+            <h2>Mas información sobre </br> los metodos <a target="_blank" href="https://credit-card-extrapolator.github.io/CCE/metodos.html">aquí</a></h2>    
+        </div>
+        <div class="botones">
+            <div class="form">
+                <a  href = "../index.php">Inicio</a                
+              </div>
+            <div class="form">
+                <a  target='_blank' href ="https://namso-gen.com/">Ir a namso</a                
+              </div>  
 
+            
+        </div>
     </div>
 </body>
 </html>

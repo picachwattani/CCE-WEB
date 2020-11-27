@@ -8,36 +8,45 @@
 </head>
 <body>
     
+    <div class="codigo">
+        <div class="titulo">
+            <h1>CREDIT CARD EXTRAPOLATOR WEB</h1>
+            <img src="../images/LOGO2.png" alt="logo de cce">
+        </div>
+            <?php 
+                $cc = (int)$_POST['cc_similitud'] ; 
+                $cc2 = (int)$_POST['cc_similitud2'] ; 
+                $cc_bin = substr($cc, 0, 6);
+                $cc_m1 = substr($cc, 6, 16);
+                $cc_m2 = substr($cc2, 6, 16);
+
+                for($i=0;$i<strlen($cc_m1);$i++){
+                    if ($cc_m1[$i] == $cc_m2[$i]){
+                        $cc_bin .= $cc_m1[$i];}
+                    else {
+                        $cc_bin .= "x";}}; ?>
+
+        <div class="respuesta">
+            <h1>Tu CC extrapolada con el metodo Similitud es:  </br><spam> <?php echo $cc_bin?> </spam></h1>
+        </div> 
+
+        <div class="respuesta">
+            <h1>Tu CC sin extrapolar es: </br> <spam><?php echo $cc?> </spam></h1>    
+        </div>
+        <div class="informacion">
+            <h2>Mas información sobre </br> los metodos <a target="_blank" href="https://credit-card-extrapolator.github.io/CCE/metodos.html">aquí</a></h2>    
+        </div>
+        <div class="botones">
+            <div class="form">
+                <a  href = "../index.php">Inicio</a                
+              </div>
+            <div class="form">
+                <a  target='_blank' href ="https://namso-gen.com/">Ir a namso</a                
+              </div>  
+
+            
+        </div>
+    </div>
+
 </body>
 </html>
-<div class="codigo">
-<?php 
-    $cc = (int)$_POST['cc_similitud'] ; 
-    $cc2 = (int)$_POST['cc_similitud2'] ; 
-    $cc_bin = substr($cc, 0, 6);
-    $cc_m1 = substr($cc, 6, 16);
-    $cc_m2 = substr($cc2, 6, 16);
-
-    for($i=0;$i<strlen($cc_m1);$i++){
-        if ($cc_m1[$i] == $cc_m2[$i]){
-            $cc_bin .= $cc_m1[$i];}
-        else {
-            $cc_bin .= "x";}}; ?>
-
-        <h1>Tu CC extrapolada con </br> el metodo Similitud es:</br>  <spam> <?php echo $cc_bin?> </spam></br> 
-        </br>
-        <h2>Por favor copiala antes</br> de volver o ir a Namso </h2>
-        <h1>Tu CC sin extrapolar es:</br>  <spam><?php echo $cc?> </spam></h1>
-
-        <h2>Mas información </br>sobre los metodos <a href="https://credit-card-extrapolator.github.io/CCE/metodos.html">aquí</a></h2> 
-        <div class="botones">
-            <form action="../index.php" method="post">
-                <button >Inicio</button>
-            </form>    
-            <form target='_blank' action="https://namso-gen.com/">
-                <button>Ir a Namso</button>
-            </form>
-        </div>
-
-</div>
-

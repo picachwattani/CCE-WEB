@@ -1,109 +1,199 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
+
 }
 
 
-body{
-    background: #1d1e21;
+body {
+    background: #0b0c0e;
     font-family:  'Roboto', sans-serif;
-    display: flex;
+    margin: 15px;
 }
 
-h1{
-    color: whitesmoke;
-    margin: 15px auto;
-    text-align: center;
-
-}
-
-
-h1 spam{
-    background:#33353b;
-    border-radius: 10px;
-    color: #05a5db;
-}
-
-h2{
-    color: whitesmoke;
-    opacity: 0.8;
-    text-align: center;
-
-}
-
-h2 a{
-    color: #05a5db;
-}
 
 .codigo{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 15px;
+    width: 90%;
     height: 100%;
-    width: 100%;
+    margin: 0 auto;
+}
+
+.codigo .titulo{
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    font-weight: 700px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.codigo .titulo img{
+    width: 15%;
+}
+
+.codigo .respuesta{
+    width: 80%;
+    margin: auto;
+    background:#1d1e21;
+    grid-column: 1/3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 30px;
+    color: whitesmoke;
 
 }
 
-.botones{
-    /* background: #000; */
-    width:50%;
-    height: 40%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.codigo .respuesta spam{
     margin: 10px auto;
+    color: #05a5db;
 }
 
-.botones form button{
-    background:#05a5db;
-    border: 0;
-    border-radius: 10px;
-    width: 180px;
-    height: 50px;
+.codigo .informacion{
+    width: 80%;
+    margin: auto;
+    grid-column: 1/-1;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.codigo .informacion a{
+    color: #05a5db;
+
+}
+
+.codigo .informacion a:hover{
+    opacity: 0.5;
+}
+
+.codigo .botones{
+    width: 70%;
+    margin: 0 auto;
+    grid-column: 1/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 15px;
+    
+}
+
+.codigo .botones .form{
+    display: flex;
+    flex-direction: row;
+    margin: 0 25px;
+}
+
+.codigo .botones .form a{
+    width: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    text-decoration: none;
+    background: #05a5db;
     color: whitesmoke;
     font-size: 20px;
+    border-radius: 15px;
 
 }
 
-.botones form button:hover{
-    transform: scale(1.1);
+.codigo .botones .form a:hover{
     cursor: pointer;
+    transform: scale(1.1);
+
 }
 
-@media screen and (max-width:900px){
-    .botones{
-        margin: 20px auto;
+
+@media screen and (max-width:750px){
+    .codigo .titulo img{width: 23%;}
+
+    .codigo .titulo{font-size: 15px}
+
+    .codigo .respuesta{
+        font-size: 12px;
+        padding: 25px}
+
+    .codigo .informacion{
+        font-size: 15px;
     }
 
-    body{
-        margin: 50px auto;
+}
+
+@media screen and (max-width:600px) {
+
+    .codigo .titulo{font-size: 13px}
+
+    .codigo .botones .form{
+        justify-content: center;
+        align-items: center;
+        margin: 15px auto;
+        flex-direction: column;
+    }
+
+    .codigo .botones .form a{
+        width: 300px;
     }
 }
 
-@media screen and (max-width:500px){
-    .botones form button{
-        width: 150px;
-        margin: auto 10px;
+
+@media screen and (max-width:510px){
+
+    .codigo .titulo h1{
+        width: 80%;
+        text-align: center;
+        font-size: 30px}
+}
+
+@media screen and (max-width:425px){
+
+    .codigo .titulo img{
+        width:30% ;
+    }
+    .codigo .titulo h1{
+        width: 80%;
+        text-align: center;
+        font-size: 25px}
+
+    .codigo .respuesta{
+        font-size: 10px;
+    }
+
+    .codigo .informacion{
+        font-size: 10px;
+
+    }
+
+    .codigo .botones{
+        padding: 6px;
+    }
+    .codigo .botones .form a{
+        width: 250px;
     }
 }
 
-@media screen and (max-width:400px){
-    h1{
-        width: 70%;
-        font-size: 25px;
-    }
 
-    h1 spam{
-        font-size: 25px;
-    }
 
-    h2{
-        font-size: 20px;
+@media screen and (max-width:345px){
+
+    .codigo .titulo img{
+        width:35% ;
     }
-    .botones form button{
-        width: 120px;
-        height: 40px;
-        margin: auto 10px;
+    .codigo .titulo h1{
+        font-size: 20px}
+
+    .codigo .botones{
+        padding: 6px;
+    }
+    .codigo .botones .form a{
+        width: 200px;
     }
 }

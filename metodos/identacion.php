@@ -7,7 +7,11 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/LOGO2.png" />
 </head>
 <body>
-<div class="codigo">
+    <div class="codigo">
+        <div class="titulo">
+            <h1>CREDIT CARD EXTRAPOLATOR WEB</h1>
+            <img src="../images/LOGO2.png" alt="logo de cce">
+        </div>
             <?php 
         $cc = (int)$_POST['cc_identacion'] ;  
         $cc_bin = substr($cc, 0, 6);
@@ -25,21 +29,28 @@
 
         $cc_bin .=  replaceAt($cc_m2,1,$replace). replaceAt($cc_m3,1,$replace2). replaceAt($cc_m4,2,$replace)  ;?>
 
-        <h1>Tu CC extrapolada con</br> el metodo Identación es:</br>  <spam> <?php echo $cc_bin?> </spam></br></h1>
-        </br> 
-        <h2>Por favor copiala antes de volver o ir a Namso </h2>
-        <h1>Tu CC sin extrapolar es:</br>  <spam><?php echo $cc?> </spam></h1>
 
-            <h2>Mas información sobre los metodos <a href="https://credit-card-extrapolator.github.io/CCE/metodos.html">aquí</a></h2>
-            <div class="botones">
-                <form action="../index.php" method="post">
-                    <button >Inicio</button>
-                </form>    
-                <form target='_blank' action="https://namso-gen.com/">
-                    <button >Ir a Namso</button>
-                </form>
-            </div>
-</div>
+        <div class="respuesta">
+            <h1>Tu CC extrapolada con el metodo Identación es:  </br><spam> <?php echo $cc_bin?> </spam></h1>
+        </div> 
+
+        <div class="respuesta">
+            <h1>Tu CC sin extrapolar es: </br> <spam><?php echo $cc?> </spam></h1>    
+        </div>
+        <div class="informacion">
+            <h2>Mas información sobre </br> los metodos <a target="_blank" href="https://credit-card-extrapolator.github.io/CCE/metodos.html">aquí</a></h2>    
+        </div>
+        <div class="botones">
+            <div class="form">
+                <a  href = "../index.php">Inicio</a                
+              </div>
+            <div class="form">
+                <a  target='_blank' href ="https://namso-gen.com/">Ir a namso</a                
+              </div>  
+
+            
+        </div>
+    </div>
 </body>
 </html>
 
