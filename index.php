@@ -50,7 +50,7 @@
             <a target="_blank" href="https://credit-card-extrapolator.github.io/CCE/index.html">Descargar para pc</a>
         </div>
         <div class="donate">
-        <a target="_blank" href="https://www.paypal.com/donate?token=Otj4TDZGSp7ZuxuRr63vd3R_6k44y_HEYRpfIgMUMmJ5bhPahBW5Jxp3_no70GK4GoRAA-PXsoJCABwC">Donar</a>
+        <a target="_blank" href="Donaciones/index.html">Donar</a>
         </div>
     </footer>
 </body>
