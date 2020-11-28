@@ -1,12 +1,8 @@
 # CCE-WEB
 
 
-En este repositorio se encuentra todo el codigo creado para la version WEB de CCE(CREDIT CARD EXTRAPOLATOR), que anteriormente estaba solo disponible para Windows.
-<<<<<<< HEAD
-![Alt text](/images/Captura.png?raw=true "Captura de app web")
-=======
-![Alt text](/images/Captura.PNG?raw=true "Optional Title")
->>>>>>> ef8a39960ee05a4ff7dd8f3a5dcde027a3be83cf
+En este repositorio se encuentra todo el codigo creado para la version WEB de CCE(CREDIT CARD EXTRAPOLATOR), que anteriormente estaba solo disponible para Windows
+![Alt text](/images/Capture.png?raw=true "Captura de app web")
 
 Ahora se puede acceder a la herramienta desde un telefono movil o pc sin descargar nada.
 
