@@ -37,8 +37,9 @@
         <?php include 'metodos.php'?>  
     </br>
     </br>
+    <script async src='//www.responserver.com/cf6c8a4685ffea7561221968941e4344/invoke.js'></script>
 
-        <div class="publicidad">
+    <div class="publicidad">
             <script type="text/javascript">
                 atOptions = {
                     'key' : '1796c08b3e98222de2a6a0e935b9f260',
@@ -49,7 +50,7 @@
                 };
                 document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/1796c08b3e98222de2a6a0e935b9f260/invoke.js"></scr' + 'ipt>');
             </script>
-        </div>
+    </div>
 
 
     <footer>

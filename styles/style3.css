@@ -113,11 +113,13 @@ body {
 }
 
 
-.codigo .publicidad{
+.publicidad{
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column: 1/-1
+    grid-column: 1/-1;
+    width: 85%;
+    margin: auto;
 }
 
 

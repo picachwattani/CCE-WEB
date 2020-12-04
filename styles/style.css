@@ -113,11 +113,12 @@ footer .redes{
     color: #05a5db;
 }
 
-.codigo .publicidad{
+.publicidad{
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-column: 1/-1;
+    width: 100%;
+    margin: 15px;
 
 }
 

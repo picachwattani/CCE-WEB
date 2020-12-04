@@ -35,6 +35,18 @@
         <div class="respuesta">
             <h1>Tu CC extrapolada con el metodo Identación es:  </br><spam> <?php echo $cc_bin?> </spam></h1>
         </div> 
+        <div class="publicidad">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '1796c08b3e98222de2a6a0e935b9f260',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/1796c08b3e98222de2a6a0e935b9f260/invoke.js"></scr' + 'ipt>');
+            </script>
+        </div>
 
         <div class="respuesta">
             <h1>Tu CC sin extrapolar es: </br> <spam><?php echo $cc?> </spam></h1>    
@@ -52,19 +64,9 @@
 
             
         </div>
-            <div class="publicidad">
-            <script type="text/javascript">
-                atOptions = {
-                    'key' : '1796c08b3e98222de2a6a0e935b9f260',
-                    'format' : 'iframe',
-                    'height' : 90,
-                    'width' : 728,
-                    'params' : {}
-                };
-                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/1796c08b3e98222de2a6a0e935b9f260/invoke.js"></scr' + 'ipt>');
-            </script>
+
     </div>
-    </div>
+    <script async src='//www.responserver.com/cf6c8a4685ffea7561221968941e4344/invoke.js'></script>
 </body>
 </html>
 

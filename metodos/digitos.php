@@ -40,6 +40,18 @@
         <div class="respuesta">
             <h1>Tu CC es: </br> <spam><?php echo $cc_bien?> </spam></h1>    
         </div>
+        <div class="publicidad">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '1796c08b3e98222de2a6a0e935b9f260',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/1796c08b3e98222de2a6a0e935b9f260/invoke.js"></scr' + 'ipt>');
+            </script>
+        </div>
         <div class="informacion">
             <h2>Mas información sobre </br> los metodos <a target="_blank"
                 href="https://credit-card-extrapolator.github.io/CCE/metodos.html">aquí</a></h2>    
@@ -52,19 +64,8 @@
                     <a  target='_blank' href ="https://namso-gen.com/">Ir a namso</a             
                   </div>  
             </div>
-            <div class="publicidad">
-            <script type="text/javascript">
-                atOptions = {
-                    'key' : '1796c08b3e98222de2a6a0e935b9f260',
-                    'format' : 'iframe',
-                    'height' : 90,
-                    'width' : 728,
-                    'params' : {}
-                };
-                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/1796c08b3e98222de2a6a0e935b9f260/invoke.js"></scr' + 'ipt>');
-            </script>
-    </div>
     </div> 
+    <script async src='//www.responserver.com/cf6c8a4685ffea7561221968941e4344/invoke.js'></script>
 </body>
 </html>
 
