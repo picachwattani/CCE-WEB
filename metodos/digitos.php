@@ -52,6 +52,18 @@
                     <a  target='_blank' href ="https://namso-gen.com/">Ir a namso</a             
                   </div>  
             </div>
+            <div class="publicidad">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '1796c08b3e98222de2a6a0e935b9f260',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/1796c08b3e98222de2a6a0e935b9f260/invoke.js"></scr' + 'ipt>');
+            </script>
+    </div>
     </div> 
 </body>
 </html>

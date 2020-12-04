@@ -113,6 +113,12 @@ footer .redes{
     color: #05a5db;
 }
 
+.codigo .publicidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .redes a i{
     display: flex;

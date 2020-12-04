@@ -113,6 +113,13 @@ body {
 }
 
 
+.codigo .publicidad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 @media screen and (max-width:750px){
     .codigo .titulo img{width: 23%;}
 

@@ -10,7 +10,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <title>CCE WEB</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/LOGO2.png" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script data-ad-client="ca-pub-8025537612057421" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
@@ -38,6 +37,20 @@
         <?php include 'metodos.php'?>  
     </br>
     </br>
+
+        <div class="publicidad">
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : '1796c08b3e98222de2a6a0e935b9f260',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.displaycontentprofit.com/1796c08b3e98222de2a6a0e935b9f260/invoke.js"></scr' + 'ipt>');
+            </script>
+        </div>
+
 
     <footer>
         <div class="redes">
