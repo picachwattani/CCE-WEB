@@ -37,7 +37,7 @@
         <?php include 'metodos.php'?>  
     </br>
     </br>
-    <script async src='//www.responserver.com/cf6c8a4685ffea7561221968941e4344/invoke.js'></script>
+ 
 
     <div class="publicidad">
             <script type="text/javascript">

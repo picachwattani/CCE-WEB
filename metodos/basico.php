@@ -44,15 +44,15 @@
         </div>
         <div class="botones">
             <div class="form">
-                <a  href = "../index.php">Inicio</a                
+                <a  href = "../index.php">Inicio</a>                
               </div>
             <div class="form">
-                <a  target='_blank' href ="https://namso-gen.com/">Ir a namso</a                
+                <a  target='_blank' href ="https://namso-gen.com/">Ir a namso</a>                
               </div>  
         </div>
 
     </div>
-    <script async src='//www.responserver.com/cf6c8a4685ffea7561221968941e4344/invoke.js'></script>
+
 </body>
 </html>
 
